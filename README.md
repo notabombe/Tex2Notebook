@@ -7,7 +7,7 @@ How to use Tex2Notebook:
 
 ```
 
-pip install reuirements.txt
+pip install -r reuirements.txt
 ``` 
 2. Download or clone the Tex2Notebook repository to your local machine. 
 3. Open the terminal and navigate to the location of the Tex2Notebook script. 
