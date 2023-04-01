@@ -1,13 +1,4 @@
 
-
-
-
-
-
-
-ChatGPT: 
-- Here is an example Python script that uses the `nbformat` and `nbconvert` libraries to convert a LaTeX `.tex` file to a Jupyter Notebook `.ipynb` file:
-
 You can customize the input and output file paths to match your own file names and locations. Note that this script assumes that the LaTeX file is well-formed and can be successfully converted to a Jupyter Notebook.
 
 Person: 
