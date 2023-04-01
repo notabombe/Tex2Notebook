@@ -1,13 +1,6 @@
+Tex2Notebook is a Python script that converts LaTeX files (.tex) to Jupyter Notebook files (.ipynb). It provides an easy and efficient way to convert LaTeX files into Jupyter Notebook format, which is widely used for data analysis, machine learning, and scientific computing.
 
 You can customize the input and output file paths to match your own file names and locations. Note that this script assumes that the LaTeX file is well-formed and can be successfully converted to a Jupyter Notebook.
-
-Person: 
-- create a readme.md file explaining the documentation and suggest a good project name.
-
-ChatGPT: 
-- Project Name: Tex2Notebook
-
-Tex2Notebook is a Python script that converts LaTeX files (.tex) to Jupyter Notebook files (.ipynb). It provides an easy and efficient way to convert LaTeX files into Jupyter Notebook format, which is widely used for data analysis, machine learning, and scientific computing.
 
 How to use Tex2Notebook: 
 1. Install the required packages by running the following command in your terminal:
