@@ -8,30 +8,6 @@
 ChatGPT: 
 - Here is an example Python script that uses the `nbformat` and `nbconvert` libraries to convert a LaTeX `.tex` file to a Jupyter Notebook `.ipynb` file:
 
-```python
-
-import nbformat
-from nbconvert import TeXExporter
-
-# Define input and output file paths
-input_file = 'input.tex'
-output_file = 'output.ipynb'
-
-# Read in the LaTeX file
-with open(input_file, 'r') as f:
-    latex_text = f.read()
-
-# Convert the LaTeX to a Notebook
-exporter = TeXExporter()
-(body, resources) = exporter.from_notebook_node(nbformat.v4.new_notebook(), latex_text)
-
-# Write the Notebook to file
-with open(output_file, 'w') as f:
-    f.write(body)
-```
-
-
-
 You can customize the input and output file paths to match your own file names and locations. Note that this script assumes that the LaTeX file is well-formed and can be successfully converted to a Jupyter Notebook.
 
 Person: 
@@ -47,7 +23,7 @@ How to use Tex2Notebook:
 
 ```
 
-pip install nbformat nbconvert
+pip install reuirements.txt
 ``` 
 2. Download or clone the Tex2Notebook repository to your local machine. 
 3. Open the terminal and navigate to the location of the Tex2Notebook script. 
